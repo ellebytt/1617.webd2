@@ -155,17 +155,17 @@ header {
     position: relative;
 }
 .slideshow__image01 {
-    background: #DDD url('../_img/portfolio_01.jpg') no-repeat;
+    background: #DDD url('../img/portfolio_01.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .slideshow__image02 {
-    background: #DDD url('../_img/portfolio_02.jpg') no-repeat;
+    background: #DDD url('../img/portfolio_02.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .slideshow__image03 {
-    background: #DDD url('../_img/portfolio_03.jpg') no-repeat;
+    background: #DDD url('../img/portfolio_03.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -270,7 +270,7 @@ header {
 }
 .image__lisanne {
     position: relative;
-    background: #DDD url('../_img/lisanne.jpg') no-repeat;
+    background: #DDD url('../img/lisanne.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 300px;
@@ -278,7 +278,7 @@ header {
 }
 .image__lars {
     position: relative;
-    background: #DDD url('../_img/lars.jpg') no-repeat;
+    background: #DDD url('../img/lars.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 300px;
@@ -286,7 +286,7 @@ header {
 }
 .image__ellen {
     position: relative;
-    background: #DDD url('../_img/ellen.jpg') no-repeat;
+    background: #DDD url('../img/ellen.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 300px;
@@ -294,7 +294,7 @@ header {
 }
 .image__aurelie {
     position: relative;
-    background: #DDD url('../_img/aurelie.jpg') no-repeat;
+    background: #DDD url('../img/aurelie.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 300px;
@@ -341,7 +341,7 @@ header {
     margin: 0px 10px;
 }
 .image__porfolio__01 {
-    background: #DDD url('../_img/portfolio_01.jpg') no-repeat;
+    background: #DDD url('../img/portfolio_01.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -349,7 +349,7 @@ header {
     position: relative;
 }
 .image__porfolio__02 {
-    background: #DDD url('../_img/portfolio_02.jpg') no-repeat;
+    background: #DDD url('../img/portfolio_02.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -358,7 +358,7 @@ header {
 }
 
 .image__porfolio__03 {
-    background: #DDD url('../_img/portfolio_03.jpg') no-repeat;
+    background: #DDD url('../img/portfolio_03.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -366,7 +366,7 @@ header {
     position: relative;
 }
 .image__paper__faces {
-    background: #DDD url('../_img/paper_faces.PNG') no-repeat;
+    background: #DDD url('../img/paper_faces.PNG') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
