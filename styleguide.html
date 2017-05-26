@@ -46,29 +46,168 @@
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/styleguide.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/styleguide.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 </head>
   <body>
-    <div class="intro">
-      <h1>Styleguide</h1>
 
-      <h1>H1: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
-      <h2>H2: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-      <h3>H3: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-      <h4>H4: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-      <h5>H5: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
-      <h6>H6: Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+    <div class="grid__wrapper background__blue">
+        <div class="grid__container">
+            <div class="grid__row"> 
+                <div class="grid__column-4 grid__offset-4 sg__title">
+                     <h1>Styleguide</h1>
+                </div> 
+            </div>
+        </div>
+    </div>
 
-      <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Laborum reiciendis, ea a similique doloribus</p>
-      <p>omnis veritatis natus nesciunt cupiditate atque hic, illum ut qui reprehenderit libero fuga quod beatae recusandae.</p>
+    <div class="grid__wrapper background__lightgrey">
+        <div class="grid__container">
+            <div class="grid__row"> 
+                <div class="grid__column-5 grid__offset-1">
+
+                  <div class="grid__row"> 
+                    <div class="grid__column-12">
+                      <h3 class="sg__subtitle">Typography</h3>
+                    </div>
+                  </div>
+
+                  <div class="grid__row sg__typography"> 
+                    <div class="grid__column-4">
+                      <h1>Titel<h1>
+                      <h2>Decoratieve tussentitel</h2>
+                      <h3>Tussentitel<h3>
+                      <p class="uppercase">Navigatie titel</p>
+                      <p>Content<p>
+                    </div>
+                    <div class="grid__column-8">
+                      <h1>Montserrat Medium | 4.5rem<h1>
+                      <h2>Montserrat Normal | 6rem</h2>
+                      <h3>Montserrat Medium | 3rem<h3>
+                      <p class="uppercase">Montserrat Light | 1.6rem</p>
+                      <p>Montserrat Light | 1.6rem<p>
+                    </div>
+                  </div>
+
+                  <div class="grid__row"> 
+                    <div class="grid__column-12">
+                      <h3 class="sg__subtitle">Colors</h3>
+                    </div>
+                  </div>
+                  <div class="grid__row"> 
+                    <div class="grid__column-4">
+                      <div class="color__box blue"> </div>
+                    </div>
+                    <div class="grid__column-4">
+                      <div class="color__box grey"> </div>
+                    </div>
+                    <div class="grid__column-4">
+                      <div class="color__box white"> </div>
+                    </div>
+                  </div>
+                  <div class="grid__row sg__color"> 
+                    <div class="grid__column-4">
+                      <p>hsla(243, 85%, 41%, 1)</p>
+                    </div>
+                    <div class="grid__column-4">
+                      <p>hsla(0, 0%, 90%, 1)</p>
+                    </div>
+                    <div class="grid__column-4">
+                      <p>hsla(0, 100%, 100%, 1)</p>
+                    </div>
+                  </div>
+                     
+
+                  <div class="grid__row sg__logo"> 
+                    <div class="grid__column-12">
+                      <h3 class="sg__subtitle">Logo</h3>
+                      <p class="logo">VEYA</p>
+                    </div>
+                  </div>
+                     
+                </div> 
+
+                <div class="grid__column-5">
+                  <div class="grid__row"> 
+                    <div class="grid__column-12">
+                      <h3 class="sg__subtitle">Hover</h3>
+                    </div>
+                  </div>
+                  <div class="grid__row">
+                    <div class="grid__column-11">
+
+                      <div class="portfolio__container">
+                              <div class="image__paper__faces">
+                                  <div class="portfolio__title">
+                                      <h3>Paper faces</h3>     
+                                  </div>
+                                  <div class="portfolio__text">
+                                      <p>Stop motion<br>
+                                      Opdracht 2DMG<br>
+                                      2017</p>
+                                  </div>
+                              </div>
+                              <div class="overlay">
+                              </div>
+                      </div>
+
+                    </div>  
+                  </div>
+
+                  
+                  <div class="grid__row"> 
+                    <div class="grid__column-12">
+                      <h3 class="sg__subtitle">Buttons</h3>
+                    </div>
+                  </div>
+                  <div class="grid__row">
+                    <div class="grid__column-5">
+                      <div class="contact__button">
+                        <a href="#">Contact</a>
+                      </div>
+                    </div>
+
+                    <div class="grid__column-5">
+
+                    </div>
+                  </div>
+
+                  <div class="grid__row"> 
+                    <div class="grid__column-12">
+                      <h3 class="sg__subtitle">Icons</h3>
+                    </div>
+                  </div>
+                  <div class="grid__row">
+                    <div class="grid__column-5">
+                      <div class="icon__left__arrow">
+                        <a href="#"><span class="arrow">&#8592;</span> ALL</a>
+                      </div>
+                    </div>
+                    <div class="grid__column-5">
+                      <div class="icon__right__arrow">
+                        <a href="#">NEXT<span class="arrow">&#8594;</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  
+
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      
 
       <a href="#" class="button button-default">Default</a>
       <a href="#" class="button button-default">Danger</a>
 
-    </div>
+    
     <!-- Scripts: Vendors -->
       <!-- For example: jQuery, lodash, handlebars, ... -->
     <!-- Scripts: App -->
