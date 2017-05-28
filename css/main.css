@@ -49,10 +49,8 @@ header {
 }
 .navigation__item a,
 .navigation__logo a {
-    text-decoration: none;
     font-weight: 300;
     color: hsla(0, 100%, 100%, 1);
-    padding: 0;
     display: block;
 }
 .navigation__item a {
@@ -91,7 +89,7 @@ header {
 /******** HOME ******/
 
 .home__title h1{
-    padding: 200px 0px;
+    padding: 220px 0px;
     padding-left: 50px;
 }
 .home__cover__image {
@@ -111,10 +109,7 @@ header {
     padding-top: 100px;
 }
 .home__contact {
-    padding-left: 150px;
-    padding-top: 50px;
-    padding-right: 200px;
-    padding-bottom: 100px;
+    padding: 50px 200px 100px 150px;
 }
 .home__contact__btn {
     padding-top: 50px;
@@ -290,10 +285,6 @@ header {
 
 
 
-
-
-
-
 /******** WHO WE ARE ******/
 
 .subtitle__team__text h2 {
@@ -308,6 +299,7 @@ header {
 }
 .team__grey__field {
     padding: 50px;
+    padding-bottom: 150px;
 }
 .image__lisanne {
     position: relative;
@@ -343,29 +335,20 @@ header {
 }
 .profile__image {
     position: relative; 
+    margin: auto;
     border-radius: 200px;
     -webkit-transition: border-radius 0.5s ease-out;
     transition: border-radius 0.5s ease-out;
 }
-.float__right {
-    float: right;
+.profile__text {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 230px;
 }
-.align__right {
-    text-align: right;
-}
-.profile__text__left {
-    position: relative;
-    left: -20px;
-    top: 50px;
-}
-.profile__text__right {
-    position: relative;
-    right: -20px;
-    top: 50px;
-    z-index: 1;
-}
-.profile__text__right h3,
-.profile__text__left h3 {
+
+.profile__text h3 {
     color: hsla(243, 85%, 41%, 1);
 }
 .profile__image:hover {
@@ -383,69 +366,54 @@ header {
     position: relative;
     margin: 0px 10px;
 }
+.image__porfolio {
+    width: 100%;
+    height:  300px;
+    position: relative;
+}
 .image__porfolio__01 {
     background: #DDD url('../img/portfolio_01.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height:  300px;
-    position: relative;
+    
 }
 .image__porfolio__02 {
     background: #DDD url('../img/portfolio_02.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height: 300px;
-    position: relative;
 }
 
 .image__porfolio__03 {
     background: #DDD url('../img/portfolio_03.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height:  300px;
-    position: relative;
 }
 .image__paper__faces {
     background: #DDD url('../img/paper_faces.PNG') no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height: 300px;
-    position: relative;
 }
 .image__porfolio__04 {
     background: #DDD url('../img/portfolio_04.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height:  300px;
-    position: relative;
 }
 .image__porfolio__05 {
     background: #DDD url('../img/portfolio_05.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height:  300px;
-    position: relative;
 }
 .image__porfolio__06 {
     background: #DDD url('../img/portfolio_06.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height:  300px;
-    position: relative;
 }
 
 .portfolio__title h3 {
     position:relative;
     font-size: 2.5rem;
     font-weight: 400;
-    color: #FFF;
+    color: hsla(0, 100%, 100%, 1);
     text-align: center;
     z-index: 1;
 
@@ -455,7 +423,7 @@ header {
     font-weight: 300;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #FFF;
+    color: hsla(0, 100%, 100%, 1);
     padding-left: 20px;
     opacity: 0;
     z-index: 1;
@@ -505,7 +473,7 @@ header {
 }
 
 label {
-    color: black;
+    color: #000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1rem;
@@ -517,7 +485,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid hsla(0, 0%, 90%, 1);;
     box-sizing: border-box;
 }
 input[type=text]:focus,{
@@ -528,7 +496,7 @@ textarea {
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid hsla(0, 0%, 90%, 1);;
 }
 input[type=submit] {
     color: hsla(243, 85%, 41%, 1); 
